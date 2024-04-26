@@ -1,5 +1,5 @@
 {
-    "name": "larachimp/mango-repo",
+    "name": "oceandba/mango-repo",
     "description": "Simple repository package for Laravel.",
     "keywords": ["php", "Laravel", "database", "repository", "pattern"],
     "license": "MIT",
@@ -7,12 +7,23 @@
         {
             "name": "Percy Mamedy",
             "email": "percymamedy@gmail.com"
+        },
+        {
+            "name": "Kenan Lafrance",
+            "email": "kenan@oceandba.com",
+            "role": "Fork Maintainer"
+        }
+    ],
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "https://github.com/oceandba/pine-annotations.git"
         }
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "illuminate/support": "^8.0",
-        "larachimp/pine-annotations": "^3.0"
+        "illuminate/support": "^9.0",
+        "oceandba/pine-annotations": "dev-develop"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.3",
